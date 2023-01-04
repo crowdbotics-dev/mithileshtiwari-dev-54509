@@ -13,7 +13,7 @@ const Untitled1 = ({
       padding: 10,
       position: 'relative',
       flex: 1
-    }}><Pressable onPress={() => navigation.navigation.navigate("undefined", {
+    }}><Pressable onPress={() => navigation.navigation.navigate("Untitled2", {
         "Login": Login
       })}><View style={styles.gqORoVNA}></View></Pressable></ScrollView>
     </SafeAreaView>;

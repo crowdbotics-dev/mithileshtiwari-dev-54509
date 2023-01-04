@@ -5,6 +5,12 @@ import { View, StyleSheet, ScrollView, SafeAreaView } from "react-native";
 const Untitled1 = ({
   navigation
 }) => {
+  const Password = useSelector(state => state.Password);
+  const Passw = useSelector(state => state.Passw);
+  const Pas = useSelector(state => state.Pas);
+  const Pass = useSelector(state => state.Pass);
+  const Pa = useSelector(state => state.Pa);
+  const signup = useSelector(state => state.signup);
   const Login = useSelector(state => state.Login);
   const Lo = useSelector(state => state.Lo);
   return <SafeAreaView style={styles.safeArea} onPress={() => navigation.navigation.navigate("undefined", {})}>
@@ -14,7 +20,9 @@ const Untitled1 = ({
       position: 'relative',
       flex: 1
     }}><Pressable onPress={() => navigation.navigation.navigate("Untitled2", {
-        "Login": Login
+        "Login": Login,
+        "signup": signup,
+        "Password": Password
       })}><View style={styles.gqORoVNA}></View></Pressable></ScrollView>
     </SafeAreaView>;
 };

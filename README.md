@@ -62,6 +62,7 @@ This section will show any installed modules you add from the Storyboard Modules
 - [django-hubspot](backend/modules)
 - [django-files](backend/modules)
 - [react-native-app-menu](modules/app-menu)
+- [django-social-auth](backend/modules)
 
 # Getting started: Frontend
 

@@ -1,7 +1,8 @@
 export const globalOptions = {
-  name: "mithileshtiwari-dev-54509",
-  url: "https://mithileshtiwari-dev-54509.botics.co",
-  api: "https://mithileshtiwari-dev-54509.botics.co/api/v1"
+  "name": "mithileshtiwari-dev-54509",
+  "url": "https://mithileshtiwari-dev-54509.botics.co",
+  "api": "https://mithileshtiwari-dev-54509.botics.co/api/v1",
+  "initialRoute": "Untitled12"
 };
 export const modulesOptions = {
   "@modules/app-menu": {
